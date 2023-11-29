@@ -260,7 +260,7 @@ spec:
       name: http
   selector:
     app: productpage
-  type: LoadBalancer
+  type: NodePort
 ---
 apiVersion: v1
 kind: ServiceAccount
